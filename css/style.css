@@ -52,7 +52,7 @@ body {
 #main-header {
     background-image: url("../img/header-background.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 
 h1 {
@@ -67,7 +67,7 @@ h1 {
 
 /*Section About - start*/
 
-h2 {
+section > h2 {
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -78,7 +78,7 @@ h2 {
 #about {
     background-color: #f9fcfe;
     padding: 0px 80px 100px 0px;
-    width: 100%;
+
 }
 
 
@@ -106,3 +106,28 @@ article {
 
 /*Section about - end*/
 
+/*Section skills - start*/
+#skills {
+    float: left;
+}
+
+#skills-icons > figure {
+    display: inline-block;
+}
+
+div#skills-icons {
+    position: absolute;
+margin: auto;
+    left: 12.5%;
+    
+}
+
+
+#skills-icons figcaption {
+    text-align: center;
+}
+
+#skills p {
+    text-align: center;
+}
+/*Section skills - end*/
