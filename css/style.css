@@ -68,6 +68,14 @@ h2 {
     background-repeat: no-repeat;
 }
 
+.main-header-content h1 {
+    font-size: 80px;
+}
+
+.main-header-content h2 {
+    font-size: 25px;
+}
+
 .main-header-content h1,
 .main-header-content h2 {
     font-family: "Roboto", sans-serif;
@@ -201,7 +209,8 @@ div.content-inner > h3, div.content-inner > p, div.content-inner > h4 {
     color: white;
 }
 
-div.content-inner i:link {
+div.content-inner > a > i {
+    font-size: 30px;
     color: #fff;
 }
 
